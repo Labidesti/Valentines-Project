@@ -6,19 +6,23 @@ body {
     margin: 0;
     background-color: #f9e3e3;
     font-family: 'Arial', sans-serif;
-}
-
-.container {
     text-align: center;
 }
 
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
 .header_text {
-    font-size: 3em;
+    font-size: 5vw; /* Adjusts dynamically */
     color: #d32f2f;
+    white-space: nowrap; /* Prevents wrapping */
+    overflow: visible;
 }
 
 .gif_container img {
-    width: 100%; 
-    max-width: 500px; 
+    width: 50%; 
+    max-width: 100px; 
     height: auto; 
 }
